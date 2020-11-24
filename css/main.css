@@ -1,0 +1,46 @@
+body, html {
+  text-align: center;
+  font-family: Gotham, Helvetica, Arial, sans-serif;
+  font-size: 1em;
+}
+
+section {
+  width: 50%;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2em;
+  color: red;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: salmon;
+}
+
+p {
+  color: grey;
+}
+
+/* ----- MEDIA QUERIES ----- */
+
+/*TABLETS*/
+
+@media (min-width: 768px) {
+  h1 { color: green; }
+
+  h2 { color: lightgreen; }
+
+  p { color: darkgreen; }
+}
+
+/*DESKTOP*/
+
+@media (min-width: 1200px) {
+  h1 { color: blue; }
+
+  h2 { color: lightblue; }
+
+  p { color: darkblue; }
+}
